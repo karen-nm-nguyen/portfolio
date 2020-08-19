@@ -1,0 +1,295 @@
+/* TYPOGRAPHY */
+h1 {
+  font-family: orpheuspro, serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: black;
+  font-size: 80px;
+}
+
+h2 {
+  font-family: orpheuspro, serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: black;
+  line-height: 1.5em;
+  font-size: 2.75em;
+}
+
+h3 {
+  font-family: orpheuspro, serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: black;
+  font-size: 40px;
+}
+
+h4 {
+  font-family: franklin-gothic-urw, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: black;
+  font-size: 22px;
+}
+
+h5 {
+  font-family: franklin-gothic-urw, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+h6 /* subtitle below the title */ {
+  font-family: franklin-gothic-urw, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.75em;
+  font-size: 18px;
+  color: #535353;
+}
+
+p {
+  font-family: franklin-gothic-urw, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+nav a, a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: #D8C041;
+  font-family: franklin-gothic-urw, sans-serif;
+  font-style: italic;
+  font-weight: 300;
+}
+
+#about, #resume, #contact {
+  font-family: franklin-gothic-urw, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: .5px;
+}
+/* END TYPOGRAPHY */
+
+body {
+  width: 100%;
+  margin: 0;
+  background-color: #F7F6F0;
+}
+
+#nav_rule {
+  border-top: 1.35px solid black;
+}
+
+
+/*START NAV */
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 60px;
+}
+
+#logo {
+display: flex;
+align-self: center;
+/*
+width: 245px;
+height: 20px;
+*/
+position: absolute;
+top: 2.2%;
+}
+
+.menu {
+  display: flex;
+  height: 60px;
+  width: 30%;
+  /* margin-left: 60%; */
+  justify-content: center;
+  position: relative;
+  left: 30%;
+}
+
+.menu li {
+  display: flex;
+  list-style: none;
+  position: relative;
+  top: 25%;
+
+}
+
+#about, #resume, #contact {
+  display: inline-block;
+  padding: 0 40px;
+}
+/* END NAV */
+
+
+/*ABOVE THE FOLD*/
+#above_fold {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 20px;
+
+}
+
+.left_container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero_title {
+  width: 612px;
+  position: relative;
+  left: 20%;
+  top: 12%;
+  height: 300px;
+}
+
+ #subtitle {
+   width: 612px;
+   height: 100px;
+   position: relative;
+   left: 20%;
+   top: 100px;
+   display: flex;
+   align-items: center;
+}
+
+.right_container {
+  width: 812px;;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#hero_img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  left: 30px;
+}
+
+#hero_img img {
+  position: relative;
+  top: 25px;
+  left: 80px;
+}
+
+/* END ABOVE FOLD */
+
+
+/* BELOW FOLD */
+.below_fold {
+    width: 100%;
+    height: 820px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 220px;
+}
+
+#work_title {
+  position: relative;
+  left: 9%;
+  top: 20px;
+}
+
+
+/* Below Fold */
+.work_container {
+  width: 450px;
+  height: 400px;
+  float:left;
+  position: relative;
+  left: 7%;
+  top: 130px;
+}
+
+.work_container ul {
+  list-style-type: none;
+  font-family: franklin-gothic-urw, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.work_container > ul > li > a {
+    color: black;
+    text-decoration: none;
+}
+
+#wing {
+        height:50px;
+        width:300px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+}
+
+.work_container > ul > li > a > .project_display {
+        display:none;
+        height:100px;
+        width:100px;
+      /*  margin:-100px 0px 0px 800px; */
+        float:left;
+        position: absolute;
+        bottom: 360px;
+        left: 700px;
+}
+
+.work_container > ul > li > a:hover > .project_display {
+        display:block;
+        filter:drop-shadow(0px 2px 3px #E6E5DB);
+}
+
+.work_container > ul > li > a:hover h5:hover {
+color: #D8C041;
+font-family: franklin-gothic-urw, sans-serif;
+font-style:italic;
+font-weight: 300;
+}
+
+#waylien {
+        height:50px;
+        width:300px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+}
+
+#oxfam {
+        height:50px;
+        width:300px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+}
+
+
+
+.regular_rule {
+  border-top: 1.35px solid black;
+  width: 370px;
+  position: relative;
+  right: 20px;
+}
+
+#rule_under_title {
+  border-top: 1.35px solid black;
+  width: 370px;
+  position: relative;
+  top: 3px;
+}
