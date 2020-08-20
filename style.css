@@ -25,7 +25,7 @@ h3 {
   font-weight: 400;
   letter-spacing: 1px;
   color: black;
-  font-size: 40px;
+  font-size: 2.5vw;
 }
 
 h4 {
@@ -40,7 +40,7 @@ h5 {
   font-family: franklin-gothic-urw, sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
+    font-size: 1vw;
 }
 
 h6 /* subtitle below the title */ {
@@ -166,7 +166,7 @@ top: 3%;
 
 .hero_title h2 {
     position: relative;
-      display: flex;
+      display: block;
 }
 
 #subtitle h6 {
@@ -174,6 +174,10 @@ top: 3%;
   top: 50%;;
   display: flex;
   align-items: center;
+}
+
+.doNotWrap {
+   white-space: nowrap;
 }
 
 
@@ -202,7 +206,7 @@ top: 3%;
   height: 100%;
   width: 100%;
   position: relative;
-  bottom: 30px;
+  bottom: 20px;
 }
 
 #hero_img img {
@@ -222,24 +226,36 @@ top: 3%;
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 220px;
+    top: 0vh;
 }
 
 #work_title {
+  display: block;
   position: relative;
-  left: 9%;
-  top: 50px;
+  left: 2.5vw;
+  top: 6vh;
+  text-align: left;
+  width: 8vw;
+  height: auto;
+}
+
+#work_title h3 {
+  margin: 0;
+  width: auto;
 }
 
 
 /* Below Fold */
 .work_container {
-  width: 450px;
-  height: 400px;
+  display: block;
+  max-width: 30vw;
+  width: auto;
+  height: 50vh;
+  max-height: 50vh;
   float:left;
   position: relative;
   left: 7%;
-  top: 100px;
+  top: 15vh;
 
 }
 
@@ -248,6 +264,19 @@ top: 3%;
   font-family: franklin-gothic-urw, sans-serif;
   font-style: normal;
   font-weight: 300;
+  max-width: 22vw;
+  width: auto;
+  height: 30vh;
+  display: block;
+  position: relative;
+  left: .5vw;
+  text-align: left;
+  top: 7vh;
+}
+
+
+.work_container ul li {
+  text-align: left;
 }
 
 .work_container > ul > li > a {
@@ -257,31 +286,52 @@ top: 3%;
 
 #wing {
         height:auto;
-        width:300px;
+        width: auto;
+        max-width:20vw;
         display: flex;
         justify-content: flex-start;
         align-items: center;
+            max-height: 3vw;
 }
 
 #wing h5 {
   position: relative;
-  top: 12px;
+
 }
 
 .work_container > ul > li > a > .project_display {
         display:none;
-        height:100px;
+      /*  height:100px;
         width:100px;
+        */
+
+        max-width: 40%;
+        width: auto;
+        height: auto%;
       /*  margin:-100px 0px 0px 800px; */
         float:left;
         position: absolute;
-        bottom: 360px;
-        left: 700px;
+        top: -30vh;
+        left: 40vw;
+        padding: 12%:
 }
 
 .work_container > ul > li > a:hover > .project_display {
         display:block;
         filter:drop-shadow(0px 2px 3px #E6E5DB);
+        max-width: 50%;
+        width: auto;
+        height: auto%;
+        padding: 10%;
+}
+
+.project_display img {
+  display: block;
+  max-width: 40vw;
+  width: auto;
+  height: auto;
+  position: relative;
+  left: 2vw;
 }
 
 .work_container > ul > li > a:hover h5:hover {
@@ -292,16 +342,20 @@ font-weight: 300;
 }
 
 #waylien {
-        height:50px;
-        width:300px;
+    height:auto;
+    width: auto;
+    max-width:20vw;
+    max-height: 3vw;
         display: flex;
         justify-content: flex-start;
         align-items: center;
 }
 
 #oxfam {
-        height:50px;
-        width:300px;
+  height:auto;
+  width: auto;
+  max-width:20vw;
+      max-height: 3vw;
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -311,16 +365,37 @@ font-weight: 300;
 
 .regular_rule {
   border-top: 1.35px solid black;
-  width: 370px;
+  width: 20vw;
   position: relative;
-  right: 20px;
+  right: 1vw;
 }
 
+.regular_rule hr {
+  border-top: 1.35px solid black;
+  width: 20vw;
+  position: relative;
+  right: 1vw;
+}
+
+
+
+/*
 #rule_under_title {
   border-top: 1.35px solid black;
-  width: 370px;
+  width: 20vw;
   position: relative;
-  top: 27px;
+  right: 2.2vw;
+  top: 1vh;
 }
+
+#rule_under_rule hr {
+  border-top: 1.35px solid black;
+  width: 20vw;
+  position: relative;
+  right: 4vw;
+}
+
+*/
+
 
 /* END Below Fold */
