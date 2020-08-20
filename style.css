@@ -15,7 +15,8 @@ h2 {
   letter-spacing: 1px;
   color: black;
   line-height: 1.5em;
-  font-size: 2.75em;
+  font-size: 2.5vw;
+
 }
 
 h3 {
@@ -47,7 +48,7 @@ h6 /* subtitle below the title */ {
   font-style: normal;
   font-weight: 300;
   line-height: 1.75em;
-  font-size: 18px;
+  font-size: 1vw;
   color: #535353;
 }
 
@@ -160,7 +161,6 @@ top: 3%;
   left: 20%;
   top: 12%;
   height: auto;
-
   align-items: flex-start;
 }
 
