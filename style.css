@@ -205,7 +205,7 @@ top: 3%;
 #work_title {
   position: relative;
   left: 9%;
-  top: 20px;
+  top: 50px;
 }
 
 
@@ -216,7 +216,8 @@ top: 3%;
   float:left;
   position: relative;
   left: 7%;
-  top: 130px;
+  top: 100px;
+
 }
 
 .work_container ul {
@@ -237,7 +238,11 @@ top: 3%;
         display: flex;
         justify-content: flex-start;
         align-items: center;
+}
 
+#wing h5 {
+  position: relative;
+  top: 12px;
 }
 
 .work_container > ul > li > a > .project_display {
@@ -292,5 +297,5 @@ font-weight: 300;
   border-top: 1.35px solid black;
   width: 370px;
   position: relative;
-  top: 3px;
+  top: 27px;
 }
