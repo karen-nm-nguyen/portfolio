@@ -95,7 +95,9 @@ nav {
   width: 100%;
   justify-content: center;
   height: 60px;
+  flex-direction: row;
 }
+
 
 #logo {
 display: flex;
@@ -109,7 +111,7 @@ top: 3%;
 .menu {
   display: flex;
   height: 60px;
-  width: 30%;
+  width: 40%;
   /* margin-left: 60%; */
   justify-content: center;
   position: relative;
@@ -121,12 +123,13 @@ top: 3%;
   list-style: none;
   position: relative;
   top: 25%;
+  padding: 0 20px;
 
 }
 
 #about, #resume, #contact {
   display: inline-block;
-  padding: 0 40px;
+  /* padding: 0 40px; */
 }
 /* END NAV */
 
@@ -167,7 +170,7 @@ top: 3%;
 }
 
 .right_container {
-  width: 812px;;
+  width: 50%;
   height: 100%;
   display: flex;
   justify-content: center;
