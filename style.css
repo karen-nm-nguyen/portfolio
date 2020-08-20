@@ -145,8 +145,9 @@ top: 3%;
 }
 
 .left_container {
-  width: 50%;
-  height: 100%;
+  max-width: 50%;
+  width: auto;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -190,8 +191,9 @@ top: 3%;
 */
 
 .right_container {
-  width: 50%;
-  height: 100%;
+  max-width: 50%;
+  width: auto;
+  height: auto%;
   display: flex;
   justify-content: center;
 }
