@@ -140,7 +140,7 @@ top: 3%;
   height: 100vh;
   display: flex;
   flex-flow: row wrap;
-  padding-top: 20px;
+  padding-top: 1%;
 
 }
 
@@ -153,7 +153,8 @@ top: 3%;
 }
 
 .hero_title {
-  width: 70%;
+  max-width: 70%;
+  width: auto;
   position: relative;
   left: 20%;
   top: 12%;
@@ -204,8 +205,9 @@ top: 3%;
 
 #hero_img img {
   position: relative;
-  max-width: 700px;
-  height:auto;
+  max-width: 80%;
+  height: auto;
+  width: auto;
 }
 
 /* END ABOVE FOLD */
