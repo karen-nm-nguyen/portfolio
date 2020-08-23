@@ -88,6 +88,7 @@ nav a:hover {
 }
 
 /* END TYPOGRAPHY */
+
 body {
   max-width: 100%;
   margin: 0;
@@ -386,3 +387,238 @@ nav {
   right: 1vw;
 }
 /* END Below Fold */
+
+/* MOBILE DISPLAY: NONE */
+#hamburger {
+  display: none;
+}
+
+.mobile_hero_title {
+  display: none;
+}
+
+.mobile_top_container {
+  display: none;
+}
+
+#mobile_menu {
+  display: none;
+}
+
+.mobile_below_fold {
+  display: none;
+}
+
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 43em){
+
+/* ABOVE THE FOLD */
+#logo {
+  max-width: 40vw;
+  width: auto;
+  height: auto;
+  display: inline-block;
+  postion: relative;
+  top: 3vh;
+  left: 30vw;
+}
+
+#nav_rule {
+  display: block;
+  position: relative;
+  top: -1vh;
+}
+
+.menu, #hero_img, #above_fold {
+    display: none;
+  }
+
+.mobile_top_container {
+  display: block;
+  height: 42vh;
+  width: auto;
+}
+
+.mobile_hero_title {
+  display: block;
+  font-size: 6vw;
+  width: 80vw;
+  height: 50vh;
+  margin: 0 auto;
+  position: relative;
+  top: 2vh;
+}
+
+.mobile_hero_title h2 {
+  font-size: 7vw;
+  line-height: 5.5vh;
+}
+
+#mobile_subtitle h6 {
+  font-size: 3vw;
+  font-weight: 400;
+  letter-spacing: .125vw;
+  line-height: 3.25vh;
+}
+
+/* END ABOVE THE FOLD */
+
+
+/* NAV BAR */
+#mobile_menu {
+  display: block;
+  position: relative;
+  height: 10vh;
+  top: 1vh;
+/*  background-color: orange; */
+}
+
+#mobile_menu ul li {
+  display: inline-block;
+  list-style: none;
+  font-family: franklin-gothic-urw, sans-serif;
+  font-style: normal;
+  font-size: 3vw;
+  font-weight: 400;
+  letter-spacing: .125vw;
+  padding: 2vh 6vw;
+  margin-top: 2.5vh;
+  margin-right: 2vw;
+
+  position: relative;
+  left: -5.5vw;
+  color: #D8C041;
+    color: black;
+
+/*  background-color: yellow; */
+}
+
+#mobile_menu a {
+  text-decoration: none;
+      color: #D8C041;
+          color: black;
+}
+
+#mobile_menu a:active {
+  text-decoration: none;
+      color: #D8C041;
+}
+/* NAV BAR */
+
+/* BELOW FOLD */
+
+.mobile_below_fold {
+/*  background-color: grey; */
+  height: 60vh;
+  width: auto;
+  display: block;
+  position: relative;
+  top: 1vh;
+}
+
+.mobile_work_container {
+  display: block;
+  max-width: 100vw;
+  position: relative;
+  top: 3vh;
+}
+
+.mobile_work_container ul {
+ /*background-color: pink; */
+  height: 45vh;
+  max-width: 100%;
+  display: block;
+  position: relative;
+  top: 0vh;
+  list-style-type: none;
+}
+
+.mobile_work_container ul li a {
+    text-decoration: none;
+}
+
+.mobile_work_container ul li a:active {
+    color: #D8C041;
+}
+
+
+.project_display img{
+  display: none;
+}
+
+.work_container, .below_fold {
+  display: none;
+}
+
+#work_title h3 {
+  display: block;
+  font-size: 7vw;
+  margin-bottom: 10vh;
+}
+
+.mobile_work_container ul li {
+  width: auto;
+  height: 6vh;
+}
+
+#wing, #waylien, #oxfam {
+  display: block;
+  max-width: 90vw;
+  width: auto;
+  max-height: 5vh;
+  height: auto;
+/*  background-color: blue; */
+}
+
+.mobile_work_container h5 {
+  font-size: 3.5vw;
+/*  background-color: red;  */
+  display: inline-block;
+  position: relative;
+  bottom: 2vh;
+}
+
+#wing img {
+  position: relative;
+  bottom: 1.75vh;
+  left: 7vw;
+  max-width: 4vw;
+  width: auto;
+  height: auto;
+/*  background-color: yellow; */}
+
+#waylien img {
+  position: relative;
+  bottom: 1.75vh;
+  left: 10vw;
+  max-width: 4vw;
+  width: auto;
+  height: auto;
+/*  background-color: yellow; */
+}
+
+#oxfam img {
+  position: relative;
+  bottom: 1.75vh;
+  left: 8vw;
+  max-width: 4vw;
+  width: auto;
+  height: auto;
+/*  background-color: yellow; */
+}
+
+
+.regular_rule {
+  display: block;
+  position: relative;
+  bottom: .5vh;
+  width: 70vw;
+  right: 9vw;
+}
+
+
+
+/* BELOW FOLD */
+
+}
