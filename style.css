@@ -455,11 +455,12 @@ nav {
   line-height: 5.5vh;
 }
 
+
 #mobile_subtitle h6 {
-  font-size: 3vw;
+  font-size: 3.25vw;
   font-weight: 400;
   letter-spacing: .125vw;
-  line-height: 3.25vh;
+  line-height: 3vh;
 }
 
 /* END ABOVE THE FOLD */
@@ -534,8 +535,9 @@ nav {
   list-style-type: none;
 }
 
-.mobile_work_container ul li a {
+.mobile_work_container>ul>li>a {
     text-decoration: none;
+    color: black !important;
 }
 
 .mobile_work_container ul li a:active {
@@ -579,6 +581,14 @@ nav {
   bottom: 2vh;
 }
 
+#waylien h5 {
+  bottom: 1.5vh;
+}
+
+#oxfam h5 {
+  bottom: 1.5vh;
+}
+
 #wing img {
   position: relative;
   bottom: 1.75vh;
@@ -590,7 +600,7 @@ nav {
 
 #waylien img {
   position: relative;
-  bottom: 1.75vh;
+  bottom: 1vh;
   left: 10vw;
   max-width: 4vw;
   width: auto;
@@ -600,7 +610,7 @@ nav {
 
 #oxfam img {
   position: relative;
-  bottom: 1.75vh;
+  bottom: 1vh;
   left: 8vw;
   max-width: 4vw;
   width: auto;
