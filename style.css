@@ -619,7 +619,8 @@ width: 12vw;
 }
 
 #wing a, #waylien a, #oxfam a {
-text-decoration: none
+text-decoration: none;
+color: black;
 }
 
 .mobile_work_container h5 {
