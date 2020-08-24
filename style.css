@@ -419,15 +419,6 @@ nav {
 @media only screen and (max-width: 43em){
 
 /* ABOVE THE FOLD */
-#logo {
-  max-width: 30vw;
-  width: auto;
-  height: auto;
-  display: inline-block;
-  position: relative;
-/*  background-color: green; */
-
-}
 
 nav {
   position: relative;
@@ -438,10 +429,21 @@ nav {
 /* background-color: pink; */
 }
 
+#logo {
+  max-width: 30vw;
+  width: auto;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  left: -2.5vw;
+/*  background-color: green; */
+
+}
+
 .menu {
   position: relative;
-  width: 50vw;
-  left: 6.2vw;
+  width: 45vw;
+  left: 5.5vw;
 /*  background-color: yellow; */
 
 }
@@ -514,11 +516,11 @@ width: auto;
 #mobile_menu {
   display: block;
   position: relative;
-  height: 4vh;
-  max-width: 30vw;
+  height: 3vh;
+  max-width: 20vw;
 /*  background-color: lightblue; */
-  left: 8.5vw;
-  top: 1vh;
+  left: 8.25vw;
+  top: -6vh;
 }
 
 #mobile_menu p {
@@ -531,24 +533,10 @@ width: auto;
   position: relative;
   color: #D8C041;
   width: 20vw;
-  top: .5vh;
 /*  background-color: blue; */
 }
 
-#mobile_menu p a {
-  text-decoration: none;
-/*  background-color: orange; */
-}
 
-#mobile_menu hr {
-  display: block;
-  width: 14.25vw;
-  position: relative;
-  bottom: .1vh;
-  border-top: 2px solid #D8C041;
-  left: -7.70vw;
-/*background-color: grey; */
-}
 
 #mobile_menu a {
   text-decoration: none;
@@ -569,17 +557,17 @@ width: auto;
   width: auto;
   display: block;
   position: relative;
-  top: 1vh;
+  top: 10vh;
   /* background-color: beige; */
 }
 
 .mobile_work_container {
   display: block;
   width: auto;
-  height: 40vh;
+  height: 35vh;
   position: relative;
-  top: 2vh;
-/*   background-color: lightblue; */
+  top: 4vh;
+ /*background-color: skyblue; */
 }
 
 .mobile_work_container ul {
