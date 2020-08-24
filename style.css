@@ -413,17 +413,20 @@ nav {
 }
 
 
-/* MEDIA QUERIES */
+/* -------------------------- MEDIA QUERIES --------------------------- */
+
+
 @media only screen and (max-width: 43em){
 
 /* ABOVE THE FOLD */
 #logo {
-  max-width: 35vw;
+  max-width: 30vw;
   width: auto;
   height: auto;
   display: inline-block;
-  postion: relative;
-  left: 7vw;
+  position: relative;
+/*  background-color: green; */
+
 }
 
 nav {
@@ -432,35 +435,36 @@ nav {
   width: auto;
   height: auto;
   max-height: 20vh;
-/*  background-color: pink; */
+/* background-color: pink; */
 }
 
 .menu {
   position: relative;
   width: 50vw;
+  left: 6.2vw;
 /*  background-color: yellow; */
-  left: 23.5vw;
+
 }
 
 
 #about {
-width: 16vw;
+width: 12vw;
   position: relative;
-  right: 5vw;
+  right: 2vw;
   font-size: 2.25vw;
-  padding: 1vh 0;
+  padding: 1vh 1vw;
 /*  background-color: teal; */
   font-size: .8em;
 }
 
 #resume {
-  width: 16vw;
+  width: 11vw;
   position: relative;
     font-size: 2.25vw;
-      padding: 1vh 0 0 2vw;
-  right: 2vw;
+      padding: 1vh 0 0 0;
     font-size: .8em;
- /* background-color: blue; */
+/*  background-color: blue; */
+  left: 3vw;
 }
 
 
@@ -513,7 +517,7 @@ width: 16vw;
   height: 4vh;
   max-width: 15vw;
 /*  background-color: lightblue; */
-  left: 10vw;
+  left: 8.5vw;
   top: 1vh;
 }
 
@@ -527,6 +531,7 @@ width: 16vw;
   position: relative;
   color: #D8C041;
   width: 20vw;
+  top: .5vh;
 }
 
 #mobile_menu hr {
@@ -603,7 +608,7 @@ width: 16vw;
   max-width: 26vw;
   height: 5vh;
   position: relative;
-  left: 9.5vw;
+  left: 8.5vw;
   top: 1.5vh;
 }
 
@@ -634,7 +639,7 @@ width: 16vw;
   max-height: 3vh;
   height: auto;
   position: relative;
-  top: 1vh;
+
   /* background-color: blue; */
 }
 
