@@ -443,7 +443,7 @@ nav {
 .menu {
   position: relative;
   width: 45vw;
-  left: 5.5vw;
+  left: 5vw;
 /*  background-color: yellow; */
 
 }
@@ -454,8 +454,8 @@ width: auto;
   position: relative;
   right: 3vw;
   font-size: 2.25vw;
-  padding: 1vh 1vw;
-  /* background-color: teal; */
+  padding: 1vh 0;
+/*   background-color: teal; */
   font-size: .8em;
 }
 
@@ -482,7 +482,7 @@ width: auto;
 
 .mobile_top_container {
   display: block;
-  height: 42vh;
+  height: 50vh;
   width: auto;
 }
 
@@ -490,7 +490,7 @@ width: auto;
   display: block;
   font-size: 6vw;
   width: 80vw;
-  height: 50vh;
+  height: 40vh;
   margin: 0 auto;
   position: relative;
   top: 2vh;
@@ -520,10 +520,10 @@ width: auto;
   max-width: 20vw;
 /*  background-color: lightblue; */
   left: 8.25vw;
-  top: -6vh;
+  top: 5vh;
 }
 
-#mobile_menu p {
+#mobile_menu a {
   list-style: none;
   font-family: franklin-gothic-urw, sans-serif;
   font-style: normal;
@@ -557,7 +557,7 @@ width: auto;
   width: auto;
   display: block;
   position: relative;
-  top: 10vh;
+  top: 1vh;
   /* background-color: beige; */
 }
 
