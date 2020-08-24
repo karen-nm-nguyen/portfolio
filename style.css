@@ -482,7 +482,7 @@ width: auto;
 
 .mobile_top_container {
   display: block;
-  height: 50vh;
+  height: 53vh;
   width: auto;
 }
 
@@ -501,29 +501,37 @@ width: auto;
   line-height: 5.5vh;
 }
 
-
 #mobile_subtitle h6 {
   font-size: 3.25vw;
   font-weight: 400;
   letter-spacing: .125vw;
   line-height: 3vh;
+/*  background-color: yellow; */
+  position: relative;
+}
+
+#mobile_subtitle {
+/*  background-color: green; */
+  height: 18vh;
+  position: relative;
 }
 
 /* END ABOVE THE FOLD */
 
 
-/* NAV BAR */
+/*
 #mobile_menu {
   display: block;
   position: relative;
   height: 3vh;
   max-width: 20vw;
-/*  background-color: lightblue; */
+/*  background-color: lightblue;
   left: 8.25vw;
   top: 5vh;
 }
+*/
 
-#mobile_menu a {
+#mobile_subtitle a {
   list-style: none;
   font-family: franklin-gothic-urw, sans-serif;
   font-style: normal;
@@ -533,17 +541,15 @@ width: auto;
   position: relative;
   color: #D8C041;
   width: 20vw;
+  text-decoration: none;
+  bottom: 2vh;
 /*  background-color: blue; */
 }
 
 
 
-#mobile_menu a {
-  text-decoration: none;
-      color: #D8C041;
-}
 
-#mobile_menu a:active {
+#mobile_subtitle a:active {
   text-decoration: none;
       color: #D8C041;
 }
