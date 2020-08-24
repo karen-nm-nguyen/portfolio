@@ -448,22 +448,22 @@ nav {
 
 
 #about {
-width: 12vw;
+width: auto;
   position: relative;
-  right: 2vw;
+  right: 3vw;
   font-size: 2.25vw;
   padding: 1vh 1vw;
-/*  background-color: teal; */
+  background-color: teal;
   font-size: .8em;
 }
 
 #resume {
-  width: 11vw;
+  width: auto;
   position: relative;
     font-size: 2.25vw;
       padding: 1vh 0 0 0;
     font-size: .8em;
-/*  background-color: blue; */
+  background-color: blue;
   left: 3vw;
 }
 
@@ -517,7 +517,7 @@ width: 12vw;
   height: 4vh;
   max-width: 15vw;
 /*  background-color: lightblue; */
-  left: 8.5vw;
+  left: 10vw;
   top: 1vh;
 }
 
