@@ -453,7 +453,7 @@ width: auto;
   right: 3vw;
   font-size: 2.25vw;
   padding: 1vh 1vw;
-  background-color: teal;
+  /* background-color: teal; */
   font-size: .8em;
 }
 
@@ -463,7 +463,7 @@ width: auto;
     font-size: 2.25vw;
       padding: 1vh 0 0 0;
     font-size: .8em;
-  background-color: blue;
+/*background-color: blue; */
   left: 3vw;
 }
 
@@ -515,9 +515,9 @@ width: auto;
   display: block;
   position: relative;
   height: 4vh;
-  max-width: 15vw;
+  max-width: 30vw;
 /*  background-color: lightblue; */
-  left: 10vw;
+  left: 8.5vw;
   top: 1vh;
 }
 
@@ -532,6 +532,12 @@ width: auto;
   color: #D8C041;
   width: 20vw;
   top: .5vh;
+/*  background-color: blue; */
+}
+
+#mobile_menu p a {
+  text-decoration: none;
+/*  background-color: orange; */
 }
 
 #mobile_menu hr {
@@ -540,6 +546,7 @@ width: auto;
   position: relative;
   bottom: .1vh;
   border-top: 2px solid #D8C041;
+  left: -7.70vw;
 /*background-color: grey; */
 }
 
