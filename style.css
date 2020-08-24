@@ -560,6 +560,7 @@ width: 14vw;
   display: block;
   position: relative;
   top: 1vh;
+  background-color: beige;
 }
 
 .mobile_work_container {
@@ -569,11 +570,11 @@ width: 14vw;
   position: relative;
   top: 3vh;
   left: 1vw;
-/*  background-color: lightblue; */
+  background-color: lightblue;
 }
 
 .mobile_work_container ul {
-/*  background-color: pink; */
+ background-color: pink;
   height: 45vh;
   max-width: 100%;
   display: block;
@@ -608,13 +609,14 @@ width: 14vw;
   width: 20vw;
   max-height: 30vh;
   height: auto;
+  background-color: grey;
 }
 
 .mobile_work_container ul li {
   width: auto;
   height: 6vh;
   position: relative;
-/*  background-color: pink; */
+  background-color: red;
 }
 
 #wing, #waylien, #oxfam {
@@ -624,7 +626,7 @@ width: 14vw;
   max-height: 5vh;
   height: auto;
   position: relative;
- /* background-color: blue; */
+  background-color: blue;
 }
 
 #wing a:active, #waylien a:active, #oxfam a:active {
@@ -638,7 +640,7 @@ width: 14vw;
 
 .mobile_work_container h5 {
   font-size: 3.5vw;
-/*  background-color: red;  */
+  background-color: green;
   display: inline-block;
   position: relative;
   bottom: 2vh;
@@ -655,7 +657,8 @@ width: 14vw;
   max-width: 4vw;
   width: auto;
   height: auto;
-/*  background-color: yellow; */}
+  background-color: yellow;
+}
 
 #waylien img {
   position: relative;
@@ -664,7 +667,7 @@ width: 14vw;
   max-width: 4vw;
   width: auto;
   height: auto;
-/*  background-color: yellow; */
+  background-color: yellow;
 }
 
 #oxfam img {
@@ -674,7 +677,7 @@ width: 14vw;
   max-width: 4vw;
   width: auto;
   height: auto;
-/*  background-color: yellow; */
+  background-color: yellow;
 }
 
 .regular_rule {
