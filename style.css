@@ -574,13 +574,12 @@ width: 14vw;
 }
 
 .mobile_work_container ul {
- background-color: pink;
+ /* background-color: pink; */
   height: 35vh;
   width: 70vw;
   display: block;
   position: relative;
   top: 2vh;
-  left: 7vw;
   list-style-type: none;
 }
 
@@ -610,7 +609,6 @@ width: 14vw;
   width: 20vw;
   max-height: 30vh;
   height: auto;
-  right: 7.5vw;
   /* background-color: grey; */
 }
 /*
@@ -628,7 +626,6 @@ width: 14vw;
   height: 6vh;
 /*  background-color: red; */
   position: relative;
-  right: 7vw;
 }
 
 
@@ -699,7 +696,6 @@ width: 14vw;
   position: relative;
   bottom: .5vh;
   width: 70vw;
-  right: 7vw;
 }
 
 /* BELOW FOLD */
