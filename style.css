@@ -605,7 +605,6 @@ width: 14vw;
   font-size: 7vw;
   margin-bottom: 5vh;
   position: relative;
-  left: .25vw;
 }
 
 .mobile_work_container ul li {
@@ -623,7 +622,6 @@ width: 14vw;
   max-height: 5vh;
   height: auto;
   position: relative;
-  left: .5vw;
 /*  background-color: blue; */
 }
 
