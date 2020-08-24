@@ -525,7 +525,7 @@ width: 14vw;
   letter-spacing: .145vw;
   padding: 2vh 6vw;
   position: relative;
-  left: 3.5vw;
+  left: 3.75vw;
   color: #D8C041;
   width: 20vw;
 
@@ -536,7 +536,7 @@ width: 14vw;
   width: 14.25vw;
   position: relative;
   bottom: 2.5vh;
-  right: 33vw;
+  right: 32.85vw;
   border-top: 1.5px solid #D8C041;
 }
 
@@ -573,7 +573,7 @@ width: 14vw;
 }
 
 .mobile_work_container ul {
- /* background-color: pink; */
+/*  background-color: pink; */
   height: 45vh;
   max-width: 100%;
   display: block;
@@ -605,12 +605,15 @@ width: 14vw;
   font-size: 7vw;
   margin-bottom: 5vh;
   position: relative;
-  left: -.25vw;
+  left: .25vw;
 }
 
 .mobile_work_container ul li {
   width: auto;
   height: 6vh;
+
+  position: relative;
+
 }
 
 #wing, #waylien, #oxfam {
@@ -619,6 +622,8 @@ width: 14vw;
   width: auto;
   max-height: 5vh;
   height: auto;
+  position: relative;
+  left: .5vw;
 /*  background-color: blue; */
 }
 
@@ -655,7 +660,7 @@ width: 14vw;
 #waylien img {
   position: relative;
   bottom: 1.5vh;
-  left: 10vw;
+  left: 6.5vw;
   max-width: 4vw;
   width: auto;
   height: auto;
@@ -677,7 +682,7 @@ width: 14vw;
   position: relative;
   bottom: .5vh;
   width: 70vw;
-  right: 6vw;
+  right: 5.5vw;
 }
 
 /* BELOW FOLD */
