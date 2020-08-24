@@ -606,12 +606,12 @@ width: 14vw;
 #work_title h3 {
   display: block;
   font-size: 7vw;
-  margin-bottom: 3.25vh;
+  margin-bottom: 2.5vh;
   position: relative;
   width: 20vw;
   max-height: 30vh;
   height: auto;
-  left: -4.5vh;
+  right: 4.9vh;
   /* background-color: grey; */
 }
 /*
@@ -629,7 +629,7 @@ width: 14vw;
   height: 6vh;
 /*  background-color: red; */
   position: relative;
-  right: 7.5vw;
+  right: 8.2vw;
 }
 
 
