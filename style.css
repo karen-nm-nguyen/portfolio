@@ -563,7 +563,7 @@ width: auto;
   width: auto;
   display: block;
   position: relative;
-  top: 1vh;
+  top: -1vh;
   /* background-color: beige; */
 }
 
@@ -572,8 +572,8 @@ width: auto;
   width: auto;
   height: 35vh;
   position: relative;
-  top: 4vh;
- /*background-color: skyblue; */
+  top: 1vh;
+ /* background-color: skyblue; */
 }
 
 .mobile_work_container ul {
@@ -609,7 +609,7 @@ width: auto;
   max-width: 26vw;
   height: 5vh;
   position: relative;
-  left: 8.5vw;
+  left: 8vw;
   top: 1.5vh;
 }
 
