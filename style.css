@@ -560,26 +560,28 @@ width: 14vw;
   display: block;
   position: relative;
   top: 1vh;
-  background-color: beige;
+  /* background-color: beige; */
 }
 
 .mobile_work_container {
   display: block;
-  max-width: 90vw;
-  width: auto;
+  width: 95vw;
+  height: 40vh;
   position: relative;
   top: 3vh;
   left: 1vw;
-  background-color: lightblue;
+/*  background-color: lightblue; */
 }
 
 .mobile_work_container ul {
- background-color: pink;
-  height: 45vh;
-  max-width: 100%;
+/* background-color: pink; */
+  height: 35vh;
+  width: 70vw;
   display: block;
   position: relative;
   top: 2vh;
+  left: 8.25vw;
+
   list-style-type: none;
 }
 
@@ -609,15 +611,27 @@ width: 14vw;
   width: 20vw;
   max-height: 30vh;
   height: auto;
-  background-color: grey;
+  left: -4.5vh;
+  /* background-color: grey; */
 }
+/*
+.mobile_work_container ul li {
+  width: 70vw;
+  height: 6vh;
+  position: relative;
+  top: -1vh;
+  background-color: red;
+}
+*/
 
 .mobile_work_container ul li {
   width: auto;
   height: 6vh;
+/*  background-color: red; */
   position: relative;
-  background-color: red;
+  right: 7.5vw;
 }
+
 
 #wing, #waylien, #oxfam {
   display: block;
@@ -626,7 +640,8 @@ width: 14vw;
   max-height: 5vh;
   height: auto;
   position: relative;
-  background-color: blue;
+  top: .5vh;
+/*  background-color: blue; */
 }
 
 #wing a:active, #waylien a:active, #oxfam a:active {
@@ -640,7 +655,7 @@ width: 14vw;
 
 .mobile_work_container h5 {
   font-size: 3.5vw;
-  background-color: green;
+/*  background-color: green; */
   display: inline-block;
   position: relative;
   bottom: 2vh;
@@ -657,7 +672,7 @@ width: 14vw;
   max-width: 4vw;
   width: auto;
   height: auto;
-  background-color: yellow;
+/*background-color: yellow; */
 }
 
 #waylien img {
@@ -667,7 +682,7 @@ width: 14vw;
   max-width: 4vw;
   width: auto;
   height: auto;
-  background-color: yellow;
+/*  background-color: yellow; */
 }
 
 #oxfam img {
@@ -677,7 +692,7 @@ width: 14vw;
   max-width: 4vw;
   width: auto;
   height: auto;
-  background-color: yellow;
+/*background-color: yellow; */
 }
 
 .regular_rule {
@@ -685,7 +700,7 @@ width: 14vw;
   position: relative;
   bottom: .5vh;
   width: 70vw;
-  right: 5.5vw;
+  right: 7.5vw;
 }
 
 /* BELOW FOLD */
