@@ -603,16 +603,18 @@ width: 14vw;
 #work_title h3 {
   display: block;
   font-size: 7vw;
-  margin-bottom: 5vh;
+  margin-bottom: 3.25vh;
   position: relative;
+  width: 20vw;
+  max-height: 30vh;
+  height: auto;
 }
 
 .mobile_work_container ul li {
   width: auto;
   height: 6vh;
-
   position: relative;
-
+/*  background-color: pink; */
 }
 
 #wing, #waylien, #oxfam {
@@ -622,7 +624,7 @@ width: 14vw;
   max-height: 5vh;
   height: auto;
   position: relative;
-/*  background-color: blue; */
+ /* background-color: blue; */
 }
 
 #wing a:active, #waylien a:active, #oxfam a:active {
