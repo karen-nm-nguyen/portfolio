@@ -515,8 +515,6 @@ width: 14vw;
   width: auto;
 }
 
-
-
 #mobile_menu p {
   display: block;
   list-style: none;
@@ -527,7 +525,7 @@ width: 14vw;
   letter-spacing: .145vw;
   padding: 2vh 6vw;
   position: relative;
-  left: 2vw;
+  left: 3.5vw;
   color: #D8C041;
   width: 20vw;
 
@@ -606,6 +604,8 @@ width: 14vw;
   display: block;
   font-size: 7vw;
   margin-bottom: 5vh;
+  position: relative;
+  left: -.25vw;
 }
 
 .mobile_work_container ul li {
