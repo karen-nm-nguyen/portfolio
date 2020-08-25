@@ -418,7 +418,7 @@ nav {
     width: auto;
     height: auto;
     max-height: 20vh;
-  /*  background-color: pink; */
+   background-color: pink;
   }
 
   h2 {
@@ -444,12 +444,12 @@ nav {
     display: inline-block;
     width: auto;
     position: relative;
-    right:12vw;
+    right:10.5vw;
     font-size: 2.25vw;
     font-size: .8em;
     padding: 0;
     margin: 0;
-  /*  background-color: green; */
+    background-color: green;
   }
 
   #resume {
@@ -460,14 +460,14 @@ nav {
     font-size: .8em;
  padding: 0;
  margin: 0;
- right: 6vw;
- /* background-color: teal; */
+ right: 5.5vw;
+  background-color: teal;
   }
 
   .menu {
-  /*  background-color: yellow; */
+    background-color: yellow;
     width: auto;
-    width: 60vw;
+    width: 39vw;
   }
 
 
