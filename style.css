@@ -418,58 +418,45 @@ nav {
     width: auto;
     height: auto;
     max-height: 20vh;
-   /* background-color: pink; */
-  }
-
-  h2 {
-    max-width: 80vw;
-  }
-
-  h6 {
-    max-width: 70vw;
+    /* background-color: pink; */
   }
 
   #logo {
+    max-width: 30vw;
     width: auto;
     height: auto;
-    max-width: 35vw;
-    padding: 0;
-    margin: 0;
     display: inline-block;
-    position: absolute;
-    left: 10.5vw;
-  }
-
-  #about {
-    display: inline-block;
-    width: auto;
     position: relative;
-    right:9.5vw;
-    font-size: 2.25vw;
-    font-size: .8em;
-    padding: 0;
-    margin: 0;
-    /* background-color: green; */
-  }
-
-  #resume {
-        display: inline-block;
-    width: auto;
-    position: relative;
-    font-size: 2.25vw;
-    font-size: .8em;
- padding: 0;
- margin: 0;
- right: 3.5vw;
-/*  background-color: teal; */
+    left: -2.5vw;
+    /*  background-color: green; */
   }
 
   .menu {
-  /*  background-color: yellow; */
-    width: 40vw;
-
+    position: relative;
+    width: 45vw;
+    left: 5vw;
+    /*  background-color: yellow; */
   }
 
+  #about {
+    width: auto;
+    position: relative;
+    right: 6vw;
+    font-size: 2.25vw;
+    padding: 1vh 0;
+    /*   background-color: teal; */
+    font-size: .8em;
+  }
+
+  #resume {
+    width: auto;
+    position: relative;
+    font-size: 2.25vw;
+    padding: 1vh 0 0 0;
+    font-size: .8em;
+  /*  background-color: blue; */
+
+  }
 
   #nav_rule {
     display: block;
@@ -482,9 +469,9 @@ nav {
     display: none;
   }
 
-  .mobile_container {
+  .mobile_top_container {
     display: block;
-    height: 120vh;
+    height: 53vh;
     width: auto;
   }
 
@@ -492,9 +479,7 @@ nav {
     display: block;
     font-size: 6vw;
     width: 80vw;
-    max-width: 80vw;
-    height: 120vh;
-    max-height: 120vh;
+    height: 40vh;
     margin: 0 auto;
     position: relative;
     top: 2vh;
@@ -515,16 +500,28 @@ nav {
   }
 
   #mobile_subtitle {
-    height:80vh;
+    /*  background-color: green; */
+    height: 18vh;
     position: relative;
   }
 
-
-  #hello {
+  /* END ABOVE THE FOLD */
+  /*
+#mobile_menu {
+  display: block;
+  position: relative;
+  height: 3vh;
+  max-width: 20vw;
+/*  background-color: lightblue;
+  left: 8.25vw;
+  top: 5vh;
+}
+*/
+  #mobile_subtitle a {
     list-style: none;
     font-family: franklin-gothic-urw, sans-serif;
     font-style: normal;
-    font-size: 3.25vw;
+    font-size: 3vw;
     font-weight: 600;
     letter-spacing: .145vw;
     position: relative;
@@ -535,7 +532,7 @@ nav {
     /*  background-color: blue; */
   }
 
-  #hello:active {
+  #mobile_subtitle a:active {
     text-decoration: none;
     color: #D8C041;
   }
@@ -555,11 +552,19 @@ nav {
   .mobile_work_container {
     display: block;
     width: auto;
-    max-width: 100vw;
-    max-height: 40vh;
-    height: 40vh;
-     list-style-type: none;
-     padding: 0;
+    height: 35vh;
+    position: relative;
+    top: 1vh;
+    /* background-color: skyblue; */
+  }
+
+  .mobile_work_container ul {
+    height: 35vh;
+    width: 70vw;
+    display: block;
+    position: relative;
+    top: 2vh;
+    list-style-type: none;
   }
 
   .mobile_work_container>ul>li>a {
@@ -584,75 +589,33 @@ nav {
     max-width: 26vw;
     height: 5vh;
     position: relative;
+    left: 9vw;
     top: 1.5vh;
-      font-size: 7vw;
-      padding-bottom: 1vh;
   }
 
-#wing, #waylien, #oxfam {
-  margin: 0;
-  padding: 0;
-  width: auto;
-  max-width: 80vw;
-  height: auto;
-  max-height: 5vh;
-}
+  #work_title h3 {
+    font-size: 7vw;
+    position: relative;
+    width: auto;
+    max-height: 3vh;
+    /*  background-color: grey; */
+  }
 
-#wing h5, #waylien h5, #oxfam h5 {
-    font-size: 3.5vw;
-}
-
-#wing a:active, #waylien a:active, #oxfam a:active {
-  color: #D8C041;
-}
-
-#wing img, #waylien img, #oxfam img {
-  position: relative;
-  left: 7vw;
-  max-width: 4vw;
-  width: auto;
-  height: auto;
-}
-
- .mobile_work_container a {
-   text-decoration: none;
- }
-
- .regular_rule {
-   display: block;
-   position: relative;
-   width: 70vw;
-   padding: 0;
-   left: -4.5vw;
- }
-
-
-/*
-  .mobile_work_container ul  {
-    display: block;
+  .mobile_work_container ul li {
     width: auto;
     height: 6vh;
-    list-style-type: none;
-      background-color: red;
+    /*  background-color: red; */
     position: relative;
   }
 
-.mobile_work_container ul li {
-  display: block;
-}
-
-.mobile_work_container ul li a {
-  display: block;
-}
-
   #wing, #waylien, #oxfam {
-    max-width: 100vw;
-    width: 100vw;
-    max-height: 7vh;
-    height: vh;
+    display: block;
+    max-width: 80vw;
+    width: auto;
+    max-height: 3vh;
+    height: auto;
     position: relative;
-     background-color: grey;
-     top: .5vh;
+    /* background-color: blue; */
   }
 
   #wing a:active, #waylien a:active, #oxfam a:active {
@@ -664,15 +627,17 @@ nav {
     color: black;
   }
 
-#wing h5, #waylien h5, #oxfam h5 {
+  .mobile_work_container h5 {
     font-size: 3.5vw;
-      background-color: green;
+    /*  background-color: green; */
     display: inline-block;
     position: relative;
     bottom: 2vh;
-    max-width: 60vw;
   }
 
+  #waylien h5, #oxfam h5 {
+    bottom: 2vh;
+  }
 
   #wing img {
     position: relative;
@@ -681,10 +646,8 @@ nav {
     max-width: 4vw;
     width: auto;
     height: auto;
-    /*background-color: yellow;
+    /*background-color: yellow; */
   }
-
-
 
   #waylien img {
     position: relative;
@@ -693,6 +656,7 @@ nav {
     max-width: 4vw;
     width: auto;
     height: auto;
+    /*  background-color: yellow; */
   }
 
   #oxfam img {
@@ -702,7 +666,7 @@ nav {
     max-width: 4vw;
     width: auto;
     height: auto;
-
+    /*background-color: yellow; */
   }
 
   .regular_rule {
@@ -711,14 +675,8 @@ nav {
     width: 70vw;
     bottom: 1vh;
   }
-   */
 
   /* BELOW FOLD */
-
-
-
 }
-
-
 
 /* END MOBILE MEDIA QUERIES: max-width: 43em */
