@@ -254,6 +254,8 @@ nav {
   border-top: 1.35px solid black;
 }
 
+/* ------ END RULE CONTAINER ------- */
+
 .info_container {
   max-width: 70vw;
   width: auto;
@@ -299,6 +301,14 @@ nav {
 }
 
 
+.right_list {
+  padding-left: 2vw;
+}
+
+.list_container ul li {
+  white-space: nowrap;
+}
+
 .visual_portfolio {
   grid-area: visual_portfolio;
 }
@@ -321,81 +331,3 @@ nav {
   left: 1.25vw;
   top: .5vh;
 }
-
-/*
-
-.software {
-  grid-area: software;
-  background-color: yellow;
-  display: grid;
-  padding-left: 5vw;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas:
-    "h4 h4"
-    "left_list right_list";
-  height: auto;
-}
-
-.software h4 {
-  grid-area: h4;
-}
-
-.left_list {
-  grid-area: left_list;
-  background-color: green;
-  white-space:nowrap;
-}
-
-.right_list {
-  grid-area: right-list;
-  background-color: skyblue;
-  position: relative;
-  top: -20.25vh;
-  right: 5vw;
-  white-space:nowrap;
-}
-
-.skills {
-  grid-area: skills;
-  display: grid;
-  padding-left: 5vw;
-  background-color: teal;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas:
-    "h4 h4"
-    "left_list right_list";
-  height: auto;
-}
-
-.visual_portfolio {
-  grid-area: visual_portfolio;
-  display: grid;
-  padding-left: 5vw;
-  background-color: beige;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas:
-    "h4 h4"
-    "link link";
-  height: auto;
-}
-
-.link {
-  grid-area: link;
-  list-style:none;
-  padding: 0;
-  font-family: franklin-gothic-urw, sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 1em;
-  line-height: 2.5em;
-  background-color: grey;
-  position: relative;
-  top: -20.25vh;
-}
-
-
-
-*/
