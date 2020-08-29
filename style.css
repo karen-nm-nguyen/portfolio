@@ -186,7 +186,6 @@ nav {
 #subtitle h6 {
   position: relative;
   top: 50%;
-  ;
   display: flex;
   align-items: center;
 }
@@ -505,18 +504,6 @@ nav {
     position: relative;
   }
 
-  /* END ABOVE THE FOLD */
-  /*
-#mobile_menu {
-  display: block;
-  position: relative;
-  height: 3vh;
-  max-width: 20vw;
-/*  background-color: lightblue;
-  left: 8.25vw;
-  top: 5vh;
-}
-*/
   #mobile_subtitle a {
     list-style: none;
     font-family: franklin-gothic-urw, sans-serif;
