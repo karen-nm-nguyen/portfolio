@@ -173,7 +173,7 @@ nav {
   max-width: 80vw;
   max-height: 80vh;
   width: auto;
-  height: 70vh;
+/*  height: 70vh; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
@@ -296,6 +296,21 @@ nav {
 
 .list_container ul li {
   white-space: nowrap;
+  font-family: franklin-gothic-urw, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 2em;
+  line-height: 4.5vh;
+  font-size: .9em;
+}
+
+.visual_portfolio ul li {
+  font-family: franklin-gothic-urw, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 2em;
+  line-height: 4.5vh;
+  font-size: .9em;
 }
 
 .visual_portfolio {
