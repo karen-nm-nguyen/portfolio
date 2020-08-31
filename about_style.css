@@ -126,7 +126,8 @@ nav {
   width: auto;
   height: auto;
   position: absolute;
-  padding: 0vh 2vw 0 2vw;
+  padding: 0vh 2vw 0 2.2vw;
+
 }
 
 .menu {
