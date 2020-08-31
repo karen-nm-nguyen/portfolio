@@ -415,17 +415,17 @@ nav {
 
   .portrait_mobile {
     display: block;
-    margin: 0 auto;
-  /*  background-color: gold; */
+    margin: 2vh auto;
+  /* background-color: gold; */
     height: auto;
   }
 
   .portrait_mobile img {
-    max-width: 70vw;
+    max-width: 78vw;
     width: auto;
     margin: 0 auto;
     position: relative;
-    left: 16.5vw;
+    left: 12vw;
   }
 
   .bio {
@@ -433,41 +433,41 @@ nav {
     margin: 0 auto;
     height: auto;
     padding: 0;
-  /* background-color: green; */
+/*   background-color: lightgreen; */
   }
 
 
   .bio h2 {
-    max-width: 80vw;
+    max-width: 78vw;
     font-size: 7vw;
     line-height: 5.5vh;
   /*  background-color: orange; */
     position: relative;
-    top: 3vh;
-    left: 1.2vw;
+    top: 1vh;
+    left: 0.5vw;
     margin: 0;
     padding: 0;
   }
 
   .bio_subtext {
-    max-width: 70vw;
-   /* background-color: grey; */
-       left: 1.2vw;
+    max-width: 78vw;
+  /*  background-color: grey; */
+       left: 0.5vw;
        position: relative;
-       top: 3vh;
+       top: 1.5vh;
   }
 
   .mobile_rule {
-    width: 70vw;
+    width: 77vw;
     position: relative;
-    left: 1.25vw;
-    top: 4.5vh;
+    left: 0.5vw;
+    top: 3.5vh;
   }
 
   .software, .skills, .visual_portfolio {
     display: block;
       margin: 0 auto;
-      max-width: 70vw;
+      max-width: 78vw;
   /*    background-color: gold; */
       height: auto;
       padding: 0;
