@@ -695,7 +695,7 @@ nav {
 
 .work_container {
   position: absolute;
-  left: .6vw;
+  left: 1vw;
   width: 80vw;
   max-width: none;
 }
