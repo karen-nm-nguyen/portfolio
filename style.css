@@ -92,6 +92,11 @@ body {
   max-width: 100%;
   margin: 0;
   background-color: #F7F6F0;
+  transition: all 0.65s ease;
+}
+
+.changeColor {
+  background: #D3D0C3;
 }
 
 #nav_rule {
@@ -200,6 +205,7 @@ nav {
   height: auto%;
   display: flex;
   justify-content: center;
+
 }
 
 #hero_img {
@@ -207,7 +213,10 @@ nav {
   width: 100%;
   position: relative;
   bottom: 20px;
+    animation: bounceArrow 1.5s ease-out;
+    animation-delay: .125s;
 }
+
 
 #hero_img img {
   position: relative;
@@ -215,6 +224,20 @@ nav {
   height: auto;
   width: auto;
 }
+
+@keyframes bounceArrow {
+  from {
+    margin-top: -40px;
+  }
+  50% {
+    margin-top: 40px;
+  }
+  to {
+    margin-top: 0px;
+  }
+}
+
+
 
 /* END ABOVE FOLD */
 /* BELOW FOLD */
@@ -283,7 +306,7 @@ nav {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  max-height: 3vw;
+  max-height: 4vw;
 }
 
 #wing h5 {
@@ -345,7 +368,7 @@ nav {
 }
 
 .work_container>ul>li>a:hover h5:hover {
-  color: #D8C041;
+  color: #BFA100;
   font-family: franklin-gothic-urw, sans-serif;
   font-style: italic;
   font-weight: 300;
@@ -355,7 +378,7 @@ nav {
   height: auto;
   width: auto;
   max-width: 20vw;
-  max-height: 3vw;
+  max-height: 4vw;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -365,24 +388,18 @@ nav {
   height: auto;
   width: auto;
   max-width: 20vw;
-  max-height: 3vw;
+  max-height: 4vw;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-.regular_rule {
-  border-top: 1.35px solid black;
-  width: 20vw;
-  position: relative;
-  right: 1vw;
-}
 
-.regular_rule hr {
-  border-top: 1.35px solid black;
+.regular_rule  {
+  height: 1px;
+  background-color: black;
   width: 20vw;
   position: relative;
-  right: 1vw;
 }
 
 /* END Below Fold */
@@ -406,9 +423,318 @@ nav {
 .mobile_below_fold {
   display: none;
 }
+/*----------------------------------------------------*/
 
-/* -------------------------- MEDIA QUERIES --------------------------- */
-@media only screen and (max-width: 43em) {
+
+/*------------------ BEGIN MEDIA QUERIES ---------------------------*/
+@media only screen and (min-width: 1171px) and (max-width: 1571px) {
+
+  #nav_rule {
+    border-top: 1.35px solid black;
+    position: relative;
+    top: -1vh;
+  }
+
+  #logo {
+    max-width: 10.5vw;
+      padding: 0vh 2vw 0 2vw;
+  }
+
+  #about, #resume, #contact {
+    display: inline-block;
+    font-size: .8vw;
+    /* padding: 0 40px; */
+  }
+
+#above_fold {
+  height: 100vh;
+}
+
+.below_fold {
+  height: 100vh;
+}
+
+#hero_img img {
+  left: 2.5vw;
+}
+
+
+
+#subtitle {
+  width: 40vw;
+}
+
+#subtitle h6 {
+    font-size: 1vw;
+    }
+
+.work_container {
+  top: 5vh;
+  position: relative;
+  left: 6.5vw;
+}
+
+
+#work_title h3 {
+  font-size: 2.3vw;
+}
+
+#wing, #waylien, #oxfam {
+  max-width: none;
+  width: 50vw;
+  max-height: 10vh;
+  height: auto;
+  margin: 0;
+}
+
+#wing h5, #waylien h5, #oxfam h5 {
+  font-size: 1vw;
+}
+
+.regular_rule {
+  width: 20vw;
+}
+
+}
+/*-------------------------------------------------------------*/
+
+
+
+
+
+@media only screen and (min-width: 989px) and (max-width: 1171px) {
+
+  #nav_rule {
+    border-top: 1.35px solid black;
+    position: relative;
+    top: -1vh;
+  }
+
+  #logo {
+    max-width: 15vw;
+      padding: .5vh 2vw 0 2vw;
+  }
+
+  #about, #resume, #contact {
+    display: inline-block;
+    font-size: 1.2vw;
+    /* padding: 0 40px; */
+  }
+
+#above_fold {
+  height: 70vh;
+}
+
+.below_fold {
+  height: 75vh;
+}
+
+#hero_img img {
+  left: 2.5vw;
+}
+
+.left_container {
+}
+.hero_title {
+  position: relative;
+  top: 9vh;
+}
+
+.hero_title h2 {
+    font-size: 2.55vw;
+    margin: 0;
+  }
+
+#subtitle {
+  width: 40vw;
+}
+
+#subtitle h6 {
+    font-size: 1.15vw;
+    }
+
+.work_container {
+  top: 5vh;
+  position: relative;
+  left: 5vw;
+}
+
+
+#work_title h3 {
+  font-size: 2.55vw;
+}
+
+#wing, #waylien, #oxfam {
+  max-width: none;
+  width: 50vw;
+  max-height: 7.5vh;
+  height: auto;
+  margin: 0;
+}
+
+#wing h5, #waylien h5, #oxfam h5 {
+  font-size: 1.4vw;
+}
+
+.regular_rule {
+  width: 27vw;
+}
+
+}
+/*-------------------------------------------------------------*/
+
+
+
+
+
+
+@media only screen and (min-width: 668px) and (max-width: 989px) {
+  body {
+    max-height: 100vh;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .menu {
+    position: relative;
+    width: 50vw;
+    left: 10vw;
+  }
+
+  #about {
+    width: auto;
+    position: relative;
+    left: -3vw;
+    padding: 1vh 0;
+     font-size: .9em;
+  }
+
+  #resume {
+    width: auto;
+    position: relative;
+    font-size: 2.25vw;
+    padding: 1vh 0 0 0;
+    left: 1vw;
+         font-size: .9em;
+ }
+
+ #contact {
+   width: auto;
+   position: relative;
+   font-size: 2.25vw;
+   padding: 1vh 0 0 0;
+   left: 5vw;
+        font-size: .9em;
+ }
+
+ #subtitle_br {
+   display: none;
+ }
+
+ #logo {
+   max-width: 20vw;
+   width: auto;
+   height: auto;
+   display: inline-block;
+   position: relative;
+   left: -8.75vw;
+ }
+
+  #above_fold {
+    height: 60vh;
+    padding: 0;
+    position: relative;
+  }
+
+#hero_img {
+  top: 1rem;
+  left: 1rem;
+  max-width: 40vw;
+}
+  #hero_img img {
+    max-width: 100%;
+  }
+
+.left_container {
+  max-width: 55%;
+}
+
+  .hero_title {
+    width: 80vw;
+    max-width: 48vw;
+    position: relative;
+    left: 4vw;
+    margin: 0 auto;
+    padding-left: 2vw;
+    top: 5vh;
+  }
+
+.right_container {
+  position: relative;
+  max-width: 45%;
+  left: 5vw;
+}
+
+.hero_title h2 {
+    font-size: 3.5vw;
+    margin: 0;
+  }
+
+#subtitle {
+  width: 40vw;
+}
+
+#subtitle h6 {
+    font-size: 1.75vw;
+    }
+
+.below_fold {
+  height: 50vh;
+  }
+
+.work_container {
+  position: absolute;
+  left: .6vw;
+  width: 80vw;
+  max-width: none;
+}
+
+.work_container>ul>li>a:hover>.project_display {
+  display: none;
+}
+
+#work_title h3 {
+  font-size: 3.5vw;
+}
+
+.work_container ul {
+  max-width: none;
+  height: auto;
+}
+
+#wing, #waylien, #oxfam {
+  max-width: none;
+  width: 50vw;
+  max-height: 10vh;
+  height: auto;
+  margin: 0;
+
+}
+
+#wing h5, #waylien h5, #oxfam h5 {
+  font-size: 2vw;
+}
+
+.regular_rule {
+  width: 37vw;
+}
+}
+
+
+
+/* -------------- MEDIA QUERIES FOR MOBILE SMALLER THAN 668PX --------------- */
+@media only screen and (max-width: 668px) {
 
   /* ABOVE THE FOLD */
   nav {
@@ -590,19 +916,31 @@ nav {
 
   .mobile_work_container ul li {
     width: auto;
-    height: 6vh;
+    height: 7vh;
     /*  background-color: red; */
     position: relative;
   }
 
-  #wing, #waylien, #oxfam {
+  #wing {
     display: block;
     max-width: 80vw;
     width: auto;
-    max-height: 3vh;
+    max-height: 7vh;
     height: auto;
     position: relative;
-    /* background-color: blue; */
+
+    margin: 2vh 0;
+  }
+
+  #waylien, #oxfam {
+    display: block;
+    max-width: 80vw;
+    width: auto;
+    max-height: 7vh;
+    height: auto;
+    position: relative;
+
+    margin: 1vh 0;
   }
 
   #wing a:active, #waylien a:active, #oxfam a:active {
@@ -622,13 +960,15 @@ nav {
     bottom: 2vh;
   }
 
-  #waylien h5, #oxfam h5 {
-    bottom: 2vh;
+
+  #wing h5, #waylien h5, #oxfam h5 {
+    position: relative;
+    bottom:.75vh;
   }
 
   #wing img {
     position: relative;
-    bottom: 1.75vh;
+    bottom: .75vh;
     left: 7vw;
     max-width: 4vw;
     width: auto;
@@ -638,7 +978,7 @@ nav {
 
   #waylien img {
     position: relative;
-    bottom: 1.5vh;
+    bottom: .75vh;
     left: 6.5vw;
     max-width: 4vw;
     width: auto;
@@ -648,7 +988,7 @@ nav {
 
   #oxfam img {
     position: relative;
-    bottom: 1.5vh;
+    bottom: .75vh;
     left: 8vw;
     max-width: 4vw;
     width: auto;
@@ -660,10 +1000,11 @@ nav {
     display: block;
     position: relative;
     width: 70vw;
-    bottom: 1vh;
   }
 
+.changeColor {
+  background: #F7F6F0;
+}
   /* BELOW FOLD */
 }
-
 /* END MOBILE MEDIA QUERIES: max-width: 43em */
