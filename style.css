@@ -427,6 +427,28 @@ nav {
 
 
 /*------------------ BEGIN MEDIA QUERIES ---------------------------*/
+@media only screen and (min-width: 1270px) and (max-width: 1654px) {
+
+  #nav_rule {
+    border-top: 1.35px solid black;
+    position: relative;
+    top: -1vh;
+  }
+
+  #logo {
+    max-width: 10.5vw;
+      padding: 0vh 2vw 0 2vw;
+  }
+
+  #about, #resume, #contact {
+    display: inline-block;
+    font-size: .8vw;
+     padding: 0 20px;
+  }
+
+
+
+
 @media only screen and (min-width: 1171px) and (max-width: 1571px) {
 
   #nav_rule {
@@ -1007,4 +1029,4 @@ nav {
 }
   /* BELOW FOLD */
 }
-/* END MOBILE MEDIA QUERIES: max-width: 43em */
+/* ---------------------------------------- */
