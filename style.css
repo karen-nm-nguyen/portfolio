@@ -858,7 +858,7 @@ nav {
     list-style: none;
     font-family: franklin-gothic-urw, sans-serif;
     font-style: normal;
-    font-size: 3vw;
+    font-size: .55em;
     font-weight: 600;
     letter-spacing: .145vw;
     position: relative;
@@ -866,6 +866,7 @@ nav {
     width: 20vw;
     text-decoration: none;
     bottom: 2vh;
+    text-decoration: underline;
     /*  background-color: blue; */
   }
 
