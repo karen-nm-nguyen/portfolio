@@ -405,6 +405,37 @@ a:hover {
 
 
 /* -------------------------- MEDIA QUERIES --------------------------- */
+@media only screen and (min-width: 1654px) {
+  #nav_rule {
+    border-top: 1.35px solid black;
+    position: relative;
+    top: -1.5rem;
+  }
+
+  #logo {
+    max-width: 15em;
+    padding: .5rem 2rem;
+    left: -6.5rem;
+    top: -1.2rem;
+  }
+
+  #about, #resume, #contact {
+    display: inline-block;
+    font-size: .9rem;
+    padding: 0 20px;
+      left: -4.25rem;
+          top: -.25rem;
+  }
+
+  .menu {
+    position: relative;
+    width: 30vw;
+    left: 34vw;
+  }
+}
+
+
+
 @media only screen and (min-width: 1270px) and (max-width: 1654px) {
   #nav_rule {
     border-top: 1.35px solid black;
