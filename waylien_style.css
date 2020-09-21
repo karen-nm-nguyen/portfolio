@@ -57,12 +57,15 @@ h5 {
 
 /* subtitle below the title */
 h6 {
-  font-family: franklin-gothic-urw, sans-serif;
+  font-family: orpheuspro, serif;
   font-style: normal;
-  font-weight: 300;
-  line-height: 1.75em;
-  font-size: 1vw;
-  color: #535353;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: black;
+  font-size: 1em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 p {
@@ -119,13 +122,12 @@ nav {
   display: flex;
   align-self: center;
   position: absolute;
-  left: 51.5rem;
 }
 
 #logo {
   display: flex;
   align-self: center;
-  max-width: 17.5rem;
+  max-width: 20vw;
   width: auto;
   height: auto;
   position: absolute;
@@ -402,6 +404,25 @@ a:hover {
 
 
 
+.footer {
+  margin: 0;
+  padding: 0;
+}
+
+h6:hover, #active {
+  font-style: italic;
+  font-size: 1em;
+  color: #D8C041;
+}
+
+h6 {
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+}
+
 
 
 /* -------------------------- MEDIA QUERIES --------------------------- */
@@ -675,6 +696,5 @@ a:hover {
     max-width: 100vw;
   }
 }
-
 
 /* ---------------- END MEDIA QUERIES --------------- */
