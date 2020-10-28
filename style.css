@@ -661,7 +661,7 @@ nav {
    width: auto;
    height: auto;
    display: inline-block;
-   position: relative;
+   position: absolute;
    left: -8.75vw;
  }
 
